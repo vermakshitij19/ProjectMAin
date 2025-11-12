@@ -1,5 +1,5 @@
 import random
-
+import panda
 secret_number = random.randint(1, 10)
 attempts = 0
 
@@ -13,4 +13,4 @@ while True:
     elif guess < secret_number:
         print("Too low! Try again.")
     else:
-        print("Too high! Try again."
+        print("Too high! Try again"
